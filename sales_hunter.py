@@ -206,6 +206,6 @@ if __name__ == "__main__":
                 criar_card_lead(listas["Prospecção"], lead, id_db)
             
             print(f"✅ 10 leads de '{nicho}' injetados. Pausando 15s...")
-            time.sleep(15)
+            time.sleep(15) 
     
     print("🏁 Execução da semana concluída.")
