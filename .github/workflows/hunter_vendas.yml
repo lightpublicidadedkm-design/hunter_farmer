@@ -38,7 +38,7 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
           # ATENÇÃO: Se o seu arquivo Python tiver outro nome, mude aqui embaixo.
-          python hunter_vendas.py 
+          python sales_hunter.py 
 
       - name: 📊 Salvar a Planilha de Leads Quentes (Se houver)
         uses: actions/upload-artifact@v4
